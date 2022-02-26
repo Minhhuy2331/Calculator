@@ -34,7 +34,7 @@
             this.txtA = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
-            this.txtKQ = new System.Windows.Forms.Button();
+            this.txtKetQua = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -87,22 +87,22 @@
             this.txtB.Size = new System.Drawing.Size(124, 22);
             this.txtB.TabIndex = 5;
             // 
-            // txtKQ
+            // txtKetQua
             // 
-            this.txtKQ.Location = new System.Drawing.Point(79, 132);
-            this.txtKQ.Name = "txtKQ";
-            this.txtKQ.Size = new System.Drawing.Size(89, 28);
-            this.txtKQ.TabIndex = 6;
-            this.txtKQ.Text = "Cộng";
-            this.txtKQ.UseVisualStyleBackColor = true;
-            this.txtKQ.Click += new System.EventHandler(this.KQ_Click);
+            this.txtKetQua.Location = new System.Drawing.Point(79, 132);
+            this.txtKetQua.Name = "txtKetQua";
+            this.txtKetQua.Size = new System.Drawing.Size(89, 28);
+            this.txtKetQua.TabIndex = 6;
+            this.txtKetQua.Text = "Trừ";
+            this.txtKetQua.UseVisualStyleBackColor = true;
+            this.txtKetQua.Click += new System.EventHandler(this.KQ_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 255);
-            this.Controls.Add(this.txtKQ);
+            this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.txtA);
@@ -124,7 +124,7 @@
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox txtB;
-        private System.Windows.Forms.Button txtKQ;
+        private System.Windows.Forms.Button txtKetQua;
 
     }
 }
